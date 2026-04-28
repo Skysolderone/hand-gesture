@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \":*)",
+      "Bash(python3:*)",
+      "Bash(ls /Users/holiday/go/pkg/mod/github.com/mattn*)",
+      "Bash(find /Users/holiday/wws -name *.onnx)",
+      "Bash(find /Users/holiday/wws -name *.tflite)",
+      "Bash(pkg-config --modversion opencv4)",
+      "Bash(pkg-config --libs opencv4)",
+      "Bash(head -5 python3 -c \"import cv2; net = cv2.dnn.readNetFromTFLite\\(''''/Users/holiday/wws/hand-gesture/hand-gesture-recognition-using-mediapipe/.venv/lib/python3.11/site-packages/mediapipe/modules/palm_detection/palm_detection_lite.tflite''''\\); print\\(''''TFLite OK'''', net\\)\")",
+      "Bash(.venv/bin/python3 -c \":*)",
+      "Bash(go build:*)",
+      "Bash(grep:*)"
+    ]
+  }
+}
